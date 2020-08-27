@@ -1,0 +1,125 @@
+
+
+-TABFOUNDRY = SURVEY CUSTOMER
+-DELIGHTED = send email to customer and customer can comments the star for us.
+-repuso = DATABASE FOR REVIEW CUSTOMER
+-POWTOON / AUDIOJUNGLE /HOOTSUITE =CREATE VIDEO 
+-HOOTSUITE = FOLLOW POST
+
+DIGITAL TRANSFORMATION
+========================
+-evernote auto getnerate, meeting
+-trello = project management project
+-XERO /QUICKBOOK=ACCOUNTING
+-expensify = HR  -upload receipt and then fill up the form.
+
+Tina Flowers  flowersti  / Tina2184
+
+ Jacob D'Allesio  dalessioj  2Stew2Stew
+
+ cargurus
+=========
+196\d$\third_party\dataprovider\cargurus\ftp\fcginventory.csv - suspend entire file
+
+CAPONE
+=======
+8/14/2020 capone suspend FCG
+
+ --8/14/2020 suspend  FCG
+ delete FROM [Utilities].[dbo].[TMPDATAPROVIDER] where dealerid='"FCG"'
+
+
+
+study
+======
+
+manager special =https://stackoverflow.com/questions/14261412/could-not-resolve-this-reference-could-not-locate-the-assembly
+
+study =https://datatables.net/examples/basic_init/table_sorting.html
+ 
+HOW TO UPDATE:
+
+YELLOWTAG  NEW
+===============
+1.P_PROCES_MD  SOI FIX 299 TO 499
+"Optional: $299 Dealer Processing Charge, Tire Recycling Fee and Electronic Titling Fee are Additional"
+2.USE FULL_LABEL.frx
+   brow 
+   delete data in column EXPR
+3. RE-COMPLIERD NCINV.prj and labelWEB.prj
+
+YELLOW TAG USED
+================
+
+CPO_uclabel.frx
+----------------------------
+1. textfee =IIF(MALL !="CN" AND MALL != "CL" AND MALL!="CH",299,IIF(MALL="CH",389, FUNC_FLOFEE() ))   ========>SOI FIX 299 TO 499
+
+hmp_uclabel.frx
+--------------------------------md
+1. textfee =IIF(LOC="FTO",389,299)  =====>SOI FIX 299 to 499
+textprint1="PRICE SUBJECT TO CHANGE WITHOUT NOTICE.  NOT RESPONSIBLE FOR ERRORS OR OMISSIONS.  EXCLUDES OPTIONAL $" + alltrim(STR(textfee))+" DEALER PROCESSING CHARGE, TAX, TAGS, & REGISTRATION"
+
+
+
+===========================================================================
+Appalachian trail
+
+Dan's Restaurant & Tap house  
+3 S Main St, Boonsboro, MD 21756-1354  (1 301-432-5224)
+
+ South Mountain State Park
+
+
+Washington Monument State Park
+6620 Zittlestown Road
+Middletown MD 21769
+
+ 
+
+===================================================
+
+
+
+Stock numbers 136415 and 872921
+
+
+A transport-level error has occurred when sending 
+the request to the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+
+Date,Source,Severity,Step ID,Server,Job Name,Step Name,Notifications,Message,Duration,Sql Severity,Sql Message ID,Operator Emailed,Operator Net sent,Operator Paged,Retries Attempted
+"Optional: $299 Dealer Processing Charge, Tire Recycling Fee and Electronic Titling Fee are Additional"
+
+
+
+Corrective Action = ?????????????????
+protective Action = ???????????????????
+
+"","250755","NEW","  /  /   ","0","59724","0","0","57747","64895","FLP","Available"," ","1C6SRFJM5LN250755","0","2020","RAM","DT6P98","1500","","","N/A","","","","","Laramie 4x4 Crew Cab 5'7 inch  Box","GRANITE CRYSTAL","","Automatic w/OD","NEW","","","Call FitzMall.com to Get Great Deal on New/Used Car! -","22"
+
+06/25/2020 07:48:07,Update_RackSpace_Fitzway,Error,0,442198-DB1,Update_RackSpace_Fitzway,(Job outcome),,The job failed.  
+The Job was invoked by User 442198-DB1\442198-admin.  
+The last step to run was step 1 (Update Fitzway Inventory).,00:00:07,0,0,,,,0
+
+06/25/2020 07:48:07,Update_RackSpace_Fitzway,Error,1,442198-DB1,
+Update_RackSpace_Fitzway,Update Fitzway Inventory,,Executed as user: NT AUTHORITY\SYSTEM. OLE DB provider "SQLNCLI10" 
+for linked server "10.254.162.196" 
+returned message "Protocol error in TDS stream". [SQLSTATE 01000] (Message 7412) 
+ OLE DB provider "SQLNCLI10" for linked server "10.254.162.196" returned message "Communication link failure". [SQLSTATE 01000] (Message 7412) 
+TCP Provider: The specified network name is no longer available. [SQLSTATE 42000] (Error 50000).  The step failed.,00:00:07,16,50000,,,,0
+
+
+Greenbrier State Park
+21843 National Pike, Boonsboro, MD 21713-1640
+
+I am still trying to determine what happened and the extent of the issue, 
+but we have a major data issue this morning.  The new and used inventory downloads from Reynolds 
+and AutoMate did occur on schedule last night, but these files are the last I can see that updated.
+
+FitzMall shows the same inventory counts it had yesterday, and none of the inventory related 3rd party data files are updated.  All still show dates of 6/24. 
+
+Soi, when you were working on the BAD issue yesterday, did you dis-able a portion of the process and forget to turn it back on?  Please trace the process from the start to figure out where the problem occurred, fix it and re-run everything, FitzMall and the 3rd parties.  Let me know when the data is updated and I will kick-off the 3rd party FTPs.
+
+This will most likely generate some calls from Managers who actually pay attention, I will alert Mr. Ascher and Mr. Addison.
+
